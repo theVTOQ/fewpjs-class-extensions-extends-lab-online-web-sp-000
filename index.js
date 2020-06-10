@@ -26,6 +26,7 @@ class Triangle extends Polygon{
 
 class Square extends Polygon{
   get isValid(){
+    const points = this.points;
     return points[0] === this.area/points[0];
   }
 
