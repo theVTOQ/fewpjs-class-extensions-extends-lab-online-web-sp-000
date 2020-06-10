@@ -23,3 +23,13 @@ class Triangle extends Polygon{
     return firstSideValid && secondSideValid && thirdSideValid;
   }
 }
+
+classs Square extends Polygon{
+  get isValid(){
+    return points[0] == this.area/points[0];
+  }
+
+  get area(){
+    return points[0] * points[1];
+  }
+}
