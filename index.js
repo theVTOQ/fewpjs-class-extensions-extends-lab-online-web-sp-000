@@ -12,3 +12,7 @@ class Polygon{
     return points.reduce((sum, currentValue) => sum + currentValue, 0);
   }
 }
+
+class Triangle extends Polygon{
+  
+}
