@@ -9,7 +9,7 @@ class Polygon{
   }
 
   get perimeter(){
-    return points.reduce((sum, currentValue) => sum + currentValue, 0);
+    return this.points.reduce((sum, currentValue) => sum + currentValue, 0);
   }
 }
 
