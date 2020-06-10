@@ -30,6 +30,7 @@ class Square extends Polygon{
   }
 
   get area(){
+    const points = this.points;
     return points[0] * points[1];
   }
 }
