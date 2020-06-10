@@ -26,7 +26,7 @@ class Triangle extends Polygon{
 
 classs Square extends Polygon{
   get isValid(){
-    return points[0] == this.area/points[0];
+    return points[0] === this.area/points[0];
   }
 
   get area(){
