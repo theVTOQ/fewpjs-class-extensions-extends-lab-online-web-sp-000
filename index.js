@@ -1,10 +1,14 @@
 // Your code here
 class Polygon{
-  constructor(sides){
-    this.sides = sides;
+  constructor(points){
+    this.points = points;
   }
 
   get countSides(){
-    return this.sides.length;
+    return this.points.length;
+  }
+
+  get perimeter(){
+    return points.reduce((sum, currentValue) => sum + currentValue);
   }
 }
